@@ -17,6 +17,7 @@
 *.ilg
 *.ind
 *.pre
+*.pdf
 *.toc
 *.run.xml
 *.fdb_latexmk
