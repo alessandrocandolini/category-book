@@ -3,22 +3,26 @@
 \addcontentsline{toc}{chapter}{\tocEntry{Preface}}
 
 
-These notes provide an exploration of concepts and ideas in category theory, and in particular different flavours of monoidal categories, with applications to non-relativistic quantum mechanics and applied functional programming. 
+These notes provide an exploration of concepts and ideas in category theory, with special emphasis on various flavours of monoidal categories, with applications to algebra, non-relativistic quantum mechanics, and applied functional programming. 
 
-Category theory recently has gained prominence in several areas of pure and applied mathematics and, more generally, science. 
-Due to its extreme generality and versatility, a variety of topics can be successfully re-phrased and presented in categorical terms. 
-A question arises though, on whether that's just an exercise of purely theoretical interested, or there are compelling tactical and pragmatic advantages over more traditional approaches. 
+Category theory recently has gained prominence in several areas of pure and applied mathematics, physics, and computer science. 
+Due to its extreme generality and versatility, category theory offers a unifying framework through which a wide variety of topics can be recast and understood.  
+A question arises though, on whether that's just an exercise of purely theoretical interested, or there are compelling advantages over more traditional approaches. 
 %Personally, I don't think there's a unique and straightforward answer to this question, but 
 In challenging and stimulating a discussion around this question, 
-these notes contribute by offering a gallery of scattered examples where reasoning in categorical terms suggestively inspire new insightful ways to look at existing domains. 
+these notes contribute by offering a gallery of domains and examples where looking through the eyeglass of category theory unlocks new ways of reasonings, provides a bird-eye view that allows to connect seemigly unrelated areas, and suggestively inspire new insightful ways to look at existing domains. 
+In fact, category theory provides a conceptual and theoretical framework and language to express, develop, and reason about abstractions and domains in a general manner that often allows to remove the accidental complexity, noisy ``implementation details'', and unnecessary burden of more traditional formalisms, letting the core aspects and essential properties emerge. 
 
-Category theory provides a conceptual and theoretical framework and language to express, recast, explore, develop, approach, and reason about ``things'' in a general manner that often allows to remove the accidental complexity, noisy ``implementation details'' and unnecessary burden of more common formalisms, letting the core aspects and essential properties emerge. 
+Consider, for instance, the operatorial formulation of non-relativistic quantum mechanics, due to von Neumann, based on the spectral theory of linear self-adjoint operators on Hilbert spaces. (Alternative formulations, such as the path integral approach introduced by R.~Feynman, offer valuable physical insights but play a more prominent role in perturbative relativistic quantum field theories.) Despite the undeniable usefulness and effectiveness of the operatorial formalism in describing and calculating properties of various quantum systems, the extraction and recognition of general results are often obfuscated behind a layer of technical details. We will see that results such as the no-cloning theorem, foundational in quantum computation and usually derived using the Cauchy-Schwarz inequality for Hilbert spaces, emerge naturally from the structural constraints of dagger compact categories.
 
-A standard approach to non-relativistic quantum mechanics --- which goes back to von Neumann --- is formulated in terms of spectral theory of linear operators in Hilbert spaces. This formalism has proven to be particularly suitable and powerful to describe and extract properties of quantum systems. (Alternative formulations include the usage of path integrals, due to R.~Feynman; such approach is definitely interesting and insighful from the physical point of view, but proves to be more useful in practice when generalising to quantum field theories.) 
+%Consider, for instance, the operatorial formulation of non-relativistic quantum mechanics --- which goes back to von Neumann --- in terms of spectral theory of linear self-adjoint operators in Hilbert spaces. This formalism has proven to be particularly suitable and powerful to describe and extract properties of quantum systems. (Alternative formulations include the usage of path integrals, due to R.~Feynman; while such approach is interesting and insighful from a physical viewpoint, it shines in the perpurbative treatment of relativistic quantum field theories.). Despite the undeniable usefulness and effectiveness of the operatorial formalism in describing quantum systems, general properties end up often being obfuscated by the details of this construction. We will see that results like the no-cloning theorem, important in quantum computation and whose traditional proof is usually deeply rooted in unitary operators and Hilber spaces of quantum states, emerge naturally from the incompatibility with the structural constraints of dagger compact categories. 
 
-
-
-This is not to say that category theory is always suitable for all kind of tasks. Being a fascinating and elegant branch of mathematics, we need to learn how to resist the pressing temptation of (ab)using category theory when alternative formulations might provide a better or more effectful alternative.  Sometimes, in applying quantum mechanics or programming ideas to specific systems or specific code, our goal is exactly to deal with the particularities of such sustems, the nitty gritty specific details of a specific system. To my knowledge, category theory is not always the right tool to get our hands dirty when it comes to study the particular details, mostly because those are often ``invisible'' on purpuse in the categorical construction. From this point of view, I don't think category theory should be understood as a replacement of more traditional approaches. Wearing the hat of category theory however provides a complementary viewpoint where certain properties are more naturally expressed, explored, and discovered. 
+This is not to say that category theory is always suitable for all kind of tasks. 
+We need to learn how to resist the pressing temptation of abusing category theory when alternative formulations might provide a better or more effectful alternative.  
+Sometimes, in applying quantum mechanics or programming ideas to specific systems or specific code, our goal is exactly to deal with the particularities of such sustems. 
+Category theory might not be always the right tool to get our hands dirty when it comes to study the nitty gritty details, mostly because those are often intentionally left ``invisible'' in the categorical construction. From this point of view, category theory should not be understood as a replacement of more traditional approaches. 
+Instead, 
+wearing the hat of a category theorist provides a complementary viewpoint where certain properties are more naturally expressed, explored, or discovered. 
 
 \smallskip
 
